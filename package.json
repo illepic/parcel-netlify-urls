@@ -1,0 +1,17 @@
+{
+  "name": "parcel-netlify-multiple",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": [
+    "./src/project-1/index.html",
+    "./src/project-2/index.html"
+  ],
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "build-netlify": "parcel build --public-url URL"
+  },
+  "devDependencies": {
+    "parcel": "^2.1.1"
+  }
+}
