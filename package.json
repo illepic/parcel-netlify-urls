@@ -8,8 +8,10 @@
   ],
   "scripts": {
     "start": "parcel",
+    "prebuild": "rm -rf ./dist",
     "build": "parcel build",
-    "build-netlify": "parcel build --public-url URL"
+    "prebuild-netlify": "rm -rf ./dist",
+    "build-netlify": "parcel build --public-url $URL"
   },
   "devDependencies": {
     "parcel": "^2.1.1"
