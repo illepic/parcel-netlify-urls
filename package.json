@@ -14,7 +14,8 @@
     "build-netlify": "parcel build --public-url $URL"
   },
   "devDependencies": {
-    "parcel": "^2.1.1"
+    "parcel": "^2.1.1",
+    "prettier": "^2.5.1"
   },
   "dependencies": {
     "alpinejs": "^3.7.1",
